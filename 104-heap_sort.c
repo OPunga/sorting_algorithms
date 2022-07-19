@@ -4,7 +4,9 @@
  * heap_sort - sorts an array following the Heap sort algorithm
  * @array: array of ints to sort
  * @size: size of the array to sort
+ *
  */
+
 void heap_sort(int *array, size_t size)
 {
 	int i;

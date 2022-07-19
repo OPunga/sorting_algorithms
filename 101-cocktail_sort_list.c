@@ -1,11 +1,12 @@
 #include "sort.h"
 
 /**
- * list_len - function returns length of list
- * @list: head of list
+ * list_len - function returns the length of list
+ * @list: head of the list
  *
  * Return: length
  */
+
 size_t list_len(listint_t *list)
 {
 	size_t len = 0;

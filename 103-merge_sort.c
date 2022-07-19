@@ -5,6 +5,7 @@
  * @array: array of ints to sort
  * @size: size of the array
  */
+
 void merge_sort(int *array, size_t size)
 {
 	int *arr;
@@ -25,6 +26,7 @@ void merge_sort(int *array, size_t size)
  * @left: index of the left element
  * @right: index of the right element
  */
+
 void merge_recursion(int *arr, int *array, size_t left, size_t right)
 {
 	size_t middle;
